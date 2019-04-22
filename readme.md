@@ -1,6 +1,9 @@
 # Opencv
 ## 第一个例子
 ### 灰度转换
+#### 依赖
+`opencv`
+`numpy`
 
 ```
 import cv2
@@ -15,6 +18,8 @@ while(True):
         break
 cap.release()
 cv2.destroyAllWindows()
+
+
 
 
 ```
